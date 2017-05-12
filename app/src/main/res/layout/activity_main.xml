@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wzf.com.teststore.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_kongbai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="空白" />
+
+        <TextView
+            android:id="@+id/tv_kongbai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_sp_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sp存" />
+
+        <TextView
+            android:id="@+id/tv_sp_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_sp_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sp取" />
+
+        <TextView
+            android:id="@+id/tv_sp_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_file_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="file存" />
+
+        <TextView
+            android:id="@+id/tv_file_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_file_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="file取" />
+
+        <TextView
+            android:id="@+id/tv_file_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_data_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data存" />
+
+        <TextView
+            android:id="@+id/tv_data_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_data_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data取" />
+
+        <TextView
+            android:id="@+id/tv_data_qu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</ScrollView>
